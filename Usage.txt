@@ -1,0 +1,2 @@
+facebook pages can automate the posts into user walls with the valid permissions attained.
+And Users can retrive the previous posts with the valid time if needed with the availed access tokens
