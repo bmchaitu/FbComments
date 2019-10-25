@@ -11,5 +11,5 @@ Bday=datetime.datetime.strptime('25-10-2019','%d-%m-%Y')
 for post in posts:
 	pdate=datetime.datetime.strptime(post['created_time'],'%Y-%m-%dT%H:%M:%S+0000')
 	#if (pdate.day == Bday.day and pdate.month == Bday.month):
-	#graphAPI.put_like(post['id'],"Thank You")
+	graphAPI.put_post(message)
 	print(post)
